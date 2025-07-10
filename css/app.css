@@ -11,3 +11,52 @@ Body {
   line-height: 1.6em;
   background: #444;
 }
+
+header {
+  background: #fff;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+}
+
+nav {
+  background: #000;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+}
+
+#about {
+  background: #ccc;
+  width: 100%;
+  min-height: 500px;
+  padding: 50px 100px ;
+}
+
+#skills {
+  background: #777;
+  width: 100%;
+  min-height: 500px;
+  padding: 50px 100px ;
+}
+
+#projects {
+  background: #ccc;
+  width: 100%;
+  min-height: 500px;
+  padding: 50px 100px ;
+}
+
+#contact {
+  background: #777;
+  width: 100%;
+  min-height: 500px;
+  padding: 50px 100px ;
+}
+
+#footer {
+  background: #000;
+  text-align: center;
+  width: 100%;
+  height: 120px;
+}
