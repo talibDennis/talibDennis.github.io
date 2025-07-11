@@ -4,24 +4,20 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
 .red {
   color: #f00;
   font-weight: 700;
 }
-
 .pressStart {
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
 }
-
-.shillset {
-  float: left;
+.skillset {
+  display: block;
   width: 100%;
   height: 350px;
 }
-
 .skill {
   float: left;
   min-width: 200px;
@@ -35,7 +31,6 @@
   margin: 0 21px;
   cursor: pointer;
 }
-
 .title {
   padding: 10px 0;
   margin: 25px 0;
@@ -44,53 +39,37 @@
   border: 2px solid #111;
   font-size: 1.6em;
 }
-
 .icon {
   width: 64px;
   margin: 10px;
   padding-bottom: 7px;
   border-bottom: 1px solid #000;
 }
-
-Body {
+body {
   font-size: 1.5em;
-  color: #fff; /* white text color */
+  background: #444;
+  color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  line-height: 1.6em;
-  background: #444;
 }
-
 header {
-  background: #fff;
-  text-align: center;
   width: 100%;
   height: 600px;
-  background: blue;
-  background-position-y: -575px;
+  background: url('../assets/imagess/MGS5PhantomPain.jpg');
+  background-position-y: top;
   text-align: center;
   padding-top: 200px;
   font-size: 2em;
   text-shadow: 3px 3px 7px #777;
   border-bottom: 1px solid #000;
 }
-
-nav {
-  background: #000;
-  text-align: center;
-  width: 100%;
-  height: 80px;
-}
-
 #about {
-  background: #ccc;
   width: 100%;
   height: 900px;
-  padding: 50px 100px ;
 }
   #aboutLeft {
     width: 50%;
-    height: 900;
+    height: 900px;
     padding: 25px 50px;
     padding-top: 50px;
     float: left;
@@ -118,33 +97,12 @@ nav {
     background: linear-gradient(#ccc, #999);
     text-align: center;
   }
-
-#skills {
-  background: #777;
+footer {
   width: 100%;
-  min-height: 500px;
-  padding: 50px 100px ;
-}
-
-#projects {
-  background: #ccc;
-  width: 100%;
-  min-height: 500px;
-  padding: 50px 100px ;
-}
-
-#contact {
-  background: #777;
-  width: 100%;
-  min-height: 500px;
-  padding: 50px 100px ;
-}
-
-#footer {
+  height: 100px;
+  text-align: center;
+  padding-top: 18px;
   background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-size: .9em;
   border-top: 1px solid #000;
-  text-align: center;
-  width: 100%;
-  height: 100px;
 }
